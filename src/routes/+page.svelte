@@ -6,9 +6,9 @@
 </script>
 
 <div class="container-fluid d-flex flex-column justify-content-between">
-	<div class="row mt-5">
-		<div class="col tab-content text-center">
-			<div class="tab-pane fade show active" id="nav-home" role="tabpanel">
+	<div class="row justify-content-center mt-4">
+		<div class="col-7 tab-content">
+			<div class="tab-pane fade show active text-center" id="nav-home" role="tabpanel">
 				<Home />
 			</div>
 			<div class="tab-pane fade" id="nav-settings" role="tabpanel">
