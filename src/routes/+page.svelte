@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row justify-content-center mb-3">
+	<div class="row justify-content-center mb-3 sticky-bottom">
 		<div class="col-2">
 			<BottomBtns />
 		</div>
@@ -33,6 +33,7 @@
 	}
 	:global(body) {
 		background-color: black;
+		overflow-x: hidden;
 	}
 	:global(*) {
 		font-family: 'Pretendard';
