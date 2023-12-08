@@ -7,7 +7,7 @@
 
 <div class="container-fluid d-flex flex-column justify-content-between">
 	<div class="row justify-content-center mt-4">
-		<div class="col-7 tab-content">
+		<div class="col-8 tab-content">
 			<div class="tab-pane fade show active text-center" id="nav-home" role="tabpanel">
 				<Home />
 			</div>
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="row justify-content-center mb-3 sticky-bottom">
+	<div class="row justify-content-center sticky-bottom">
 		<div class="col-2">
 			<BottomBtns />
 		</div>
@@ -41,5 +41,8 @@
 	:global(::selection) {
 		background-color: white;
 		color: black;
+	}
+	.sticky-bottom {
+		background-color: black;
 	}
 </style>
